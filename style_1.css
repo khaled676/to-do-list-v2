@@ -1,0 +1,141 @@
+body{
+    background-color: #352f5b;
+    font-family: Arial, sans-serif;
+    color: #fff;
+    margin: 0;
+    padding: 0;
+}
+
+h1{
+    text-align: center;
+    font-size: 35px;
+    margin-top: 25px;
+}
+
+.task{
+    margin-top: 15px;
+    margin-bottom: 12px;
+    width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 9px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+    background-color: rgba(87, 122, 145, 0.7);
+    box-shadow: 0 8px 23px 0px rgba(31 38 135 / 37%);
+    backdrop-filter: blur(4px);
+    -webkit-backdrop-filter: blur(4px);
+    border-radius: 10px;
+    border: 1px solid rgba(255, 255, 255, 0.18);
+    border-bottom: 3px solid #fff ;
+
+}
+
+p{
+    font-size: 20px;
+}
+
+.icon{
+    font-size: 22px;
+}
+
+.icon:hover{
+    font-size: 24px;
+    transition:  0.2s;
+    cursor: pointer;
+}
+
+.icon-star-full , .icon-trach{
+    opacity: 0.4;
+
+}
+.icon-star-full:hover{
+    opacity: 1;
+    color: #f1c40f;
+    font-size: 29px;
+}
+
+.icon-trach{
+    margin-right: 10px;
+}
+
+.icon-trach:hover{
+    color: #fff;
+    opacity: 1;
+    font-size: 27px;
+}
+
+.icon-angry2{
+    color: #d0e73c;
+}
+
+.icon-angry2:hover{
+    opacity: 1;
+    color: #cfe730;
+    font-size: 27px;
+}
+
+h2{
+    text-align: center;
+    font-size: 30px;
+    margin-top: 50px;
+    margin-bottom: 40px;
+}
+
+form{
+    text-align: center;
+    margin-bottom: 350px;
+}
+
+input{
+    padding: 10px 20px;
+    border-radius: 6px;
+    border: none;
+    width: 30%;
+    font-size: 18px;
+    text-align: center;
+}
+
+button {all:unset;}
+.icon-upload3{
+    font-size: 30px;
+    margin-left: 15px;
+    top: 9px;
+    position: relative;
+}
+
+.icon-upload3:hover{
+    color: #62d19a;
+    font-size: 35px;
+    transition: 0.2s;
+}
+
+/*for java scrept*/
+
+.dn{
+    display: none;
+}
+
+.icon-heart{
+    cursor: pointer;
+    font-size: 21px;
+        color: red;
+}
+
+.icon-heart:hover{
+    font-size: 27px;
+    transition: 0.2s;
+}
+
+.finish{
+    text-decoration-line: line-through;
+    text-decoration-style:wavy;
+}
+
+
+.orange{
+    color: orange;
+    opacity: 1;
+}
